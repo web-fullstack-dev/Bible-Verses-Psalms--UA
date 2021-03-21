@@ -3,7 +3,7 @@
 }
 
 .section__h1 {
-  width: 150px;
+  width: 90px;
   text-align: center;
   color: hsl(0, 0%, 100%);
   font-size: 26px;
@@ -12,27 +12,21 @@
   transition: 0.3s;
 }
 
-@media (min-width: 360px) {
-  .section__h1 {
-    width: 45%;
-  }
+.section__h1--lightslategrey {
+  background-color: hsl(210, 14%, 53%);
 }
 
-.section__h1--lightseagreen {
-  background-color: hsl(177, 70%, 41%);
-}
-
-.section__h1--lightseagreen:active {
-  background-color: hsl(177, 70%, 41%);
+.section__h1--lightslategrey:active {
+  background-color: hsl(210, 14%, 63%);
   transform: scale(1.1);
 }
 
-.section__h1--blue {
-  background-color: hsl(240, 100%, 60%);
+.section__h1--limegreen {
+  background-color: hsl(120, 61%, 50%);
 }
 
-.section__h1--blue:active {
-  background-color: hsl(240, 100%, 70%);
+.section__h1--limegreen:active {
+  background-color: hsl(120, 61%, 60%);
   transform: scale(1.1);
 }
 
